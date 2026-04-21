@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
-import Buttons from "./Buttons";
+import Buttons from "./components/Buttons";
+import FeatureList from "./components/FeatureList";
 
 const App = () => {
   return (
@@ -15,7 +16,11 @@ const App = () => {
           Hello World
         </motion.h1> */}
 
-        <Buttons />
+
+        {/* <Buttons/> */}
+        <FeatureList/>
+
+
       </div>
     </>
   );
