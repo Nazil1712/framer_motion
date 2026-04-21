@@ -5,6 +5,7 @@ import FeatureList from "./components/FeatureList";
 import DraggableCard from "./components/DraggableCard";
 import DismissableAlert from "./components/DismissableAlert";
 import StepSwitcher from "./components/StepSwitcher";
+import CollapsibleList from "./components/CollapsibleList";
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
         {/* <FeatureList/> */}
         {/* <DraggableCard/> */}
         {/* <DismissableAlert/> */}
-        <StepSwitcher/>
+        {/* <StepSwitcher/> */}
+        <CollapsibleList/>
 
 
       </div>
