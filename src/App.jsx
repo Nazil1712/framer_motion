@@ -3,6 +3,8 @@ import { motion } from "motion/react";
 import Buttons from "./components/Buttons";
 import FeatureList from "./components/FeatureList";
 import DraggableCard from "./components/DraggableCard";
+import DismissableAlert from "./components/DismissableAlert";
+import StepSwitcher from "./components/StepSwitcher";
 
 const App = () => {
   return (
@@ -20,7 +22,9 @@ const App = () => {
 
         {/* <Buttons/> */}
         {/* <FeatureList/> */}
-        <DraggableCard/>
+        {/* <DraggableCard/> */}
+        {/* <DismissableAlert/> */}
+        <StepSwitcher/>
 
 
       </div>
