@@ -1,17 +1,24 @@
-import React from 'react'
-import { motion } from 'motion/react'
+import React from "react";
+import { motion } from "motion/react";
+import Buttons from "./Buttons";
 
 const App = () => {
   return (
-    <motion.div 
-      initial={{opacity:0, y:-100}}
-      animate={{opacity:1, y:0}}
-      transition={{duration: 2, ease: "easeInOut"}}
-      className='flex justify-center items-center w-full h-screen text-4xl'
-    >
-      <h1>Hello World</h1>
-    </motion.div>
-  )
-}
+    <>
+      <div className="flex justify-center items-center w-full h-screen">
+        {/* <motion.h1
+          initial={{ opacity: 0, y: -100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 2, ease: "easeInOut" }}
+          className="text-4xl"
+        >
+          Hello World
+        </motion.h1> */}
 
-export default App
+        <Buttons />
+      </div>
+    </>
+  );
+};
+
+export default App;
