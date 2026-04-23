@@ -6,6 +6,7 @@ import DraggableCard from "./components/DraggableCard";
 import DismissableAlert from "./components/DismissableAlert";
 import StepSwitcher from "./components/StepSwitcher";
 import CollapsibleList from "./components/CollapsibleList";
+import LiveBadge from "./components/LiveBadge";
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
         {/* <DraggableCard/> */}
         {/* <DismissableAlert/> */}
         {/* <StepSwitcher/> */}
-        <CollapsibleList/>
+        {/* <CollapsibleList/> */}
+        <LiveBadge/>
 
 
       </div>
