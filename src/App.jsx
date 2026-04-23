@@ -10,6 +10,8 @@ import LiveBadge from "./components/LiveBadge";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { AboutPage, ContactPage, HomePage } from "./components/Nav";
 import Layout from "./components/Layout";
+import Play from "./components/Play";
+import ScrollEffect from "./components/ScrollEffect";
 
 const router = createBrowserRouter([
   {
@@ -54,7 +56,10 @@ const App = () => {
       {/* <LiveBadge /> */}
       {/* </div> */}
 
-      <RouterProvider router={router} />
+      {/* <RouterProvider router={router} /> */}
+
+      {/* <Play/> */}
+      <ScrollEffect/>
     </>
   );
 };
